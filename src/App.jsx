@@ -45,7 +45,7 @@ function App() {
   return (
     <AuthProvider>
       <QueryClientProvider client={queryClientInstance}>
-        <Router>
+        <Router basename="/my-base44-app">
           <AuthenticatedApp />
         </Router>
         <Toaster />
